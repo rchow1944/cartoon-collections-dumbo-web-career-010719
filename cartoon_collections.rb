@@ -22,5 +22,6 @@ end
 def find_the_cheese(str_arr)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  str_arr.include?(cheese_types)
+  if str_arr.include?(cheese_types)
+    
 end
